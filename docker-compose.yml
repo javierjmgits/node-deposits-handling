@@ -1,0 +1,17 @@
+version: "2"
+services:
+  app:
+    build: .
+    container_name: app
+    command: npm run deposit
+    environment:
+      - DB_URL=mongodb://mongodb:27057/deposit
+    build: .
+    links:
+      - mongodb
+  mongodb:
+    container_name: mongo
+    image: mongo
+    command: mongod --port 27057
+    ports:
+      - "27057:27057"

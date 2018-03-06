@@ -1,0 +1,74 @@
+{
+  "transactions": [
+    {
+      "_comment": "confirmed for JMG",
+      "txid": "1",
+      "address": "addressJMG",
+      "amount": 10,
+      "confirmations": 6
+    },
+    {
+      "_comment": "repeated",
+      "txid": "1",
+      "address": "addressJMG",
+      "amount": 10,
+      "confirmations": 6
+    },
+    {
+      "_comment": "not confirmed for JMG",
+      "txid": "2",
+      "address": "addressJMG",
+      "amount": 15,
+      "confirmations": 5
+    },
+    {
+      "_comment": "confirmed for JMG",
+      "txid": "3",
+      "address": "addressJMG",
+      "amount": 20,
+      "confirmations": 15
+    },
+    {
+      "_comment": "not confirmed for unknown customer 1",
+      "txid": "4",
+      "address": "otherAddress1",
+      "amount": 1,
+      "confirmations": 5
+    },
+    {
+      "_comment": "repeated",
+      "txid": "5",
+      "address": "otherAddress1",
+      "amount": 1000,
+      "confirmations": 5
+    },
+    {
+      "_comment": "confirmed for unknown customer 1 (max deposit)",
+      "txid": "6",
+      "address": "otherAddress1",
+      "amount": 500,
+      "confirmations": 10
+    },
+    {
+      "_comment": "repeated",
+      "txid": "6",
+      "address": "otherAddress1",
+      "amount": 500,
+      "confirmations": 10
+    },
+    {
+      "_comment": "confirmed for unknown customer 2 (min deposit)",
+      "txid": "7",
+      "address": "otherAddress2",
+      "amount": 3,
+      "confirmations": 10
+    },
+    {
+      "_comment": "confirmed for unknown customer 2",
+      "txid": "8",
+      "address": "otherAddress2",
+      "amount": 12,
+      "confirmations": 10
+    }
+  ]
+}

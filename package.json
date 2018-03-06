@@ -1,0 +1,17 @@
+{
+  "name": "deposits-handling",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "mocha",
+    "deposit": "node app"
+  },
+  "dependencies": {
+    "mongodb": "^3.0.4",
+    "mongoose": "^5.0.9"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.2",
+    "node-embedded-mongodb": "0.0.3"
+  }
+}
